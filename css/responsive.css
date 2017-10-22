@@ -1,0 +1,118 @@
+/* =========================================================================
+Template Name: FOLIO. - One Page Responsive Personal Portfolio Template
+Author       : Mo Dauod
+Author URL   : modauod@gmail.com
+Description  : A one page responsive personal portfolio template.
+Version      : 1.0
+========================================================================= */
+
+/* ======== START EXTRA SMALL SCREENS ======== */
+@media (min-width:0) and (max-width:767px) {
+    .into:before,
+    .testimonials:before {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 15px !important;
+    }
+    .navbar-brand {
+        padding: 20px 15px !important;
+    }
+    .about ul.social-icons {
+        text-align: center;
+    }
+    .services .service {
+        margin-bottom: 40px;
+    }
+    .services .service h4 {
+        font-size: 18px;
+    }
+    .portfolio .list-inline > li {
+        margin: 10px;
+        display: block;
+        font-size: 16px;
+    }
+    .portfolio .img-responsive {
+        width: 100%;
+    }
+    .testimonials .item blockquote {
+        width: 100%;
+        font-size: 16px;
+    }
+    .contact .info .contact-info {
+        text-align: center;
+    }
+    .contact .info .contact-info h4 {
+        font-size: 18px;
+    }
+    .contact form .btn-border {
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .copyrights {
+        margin-bottom: 20px;
+    }
+    footer .copyrights p {
+        font-size: 12px !important;
+    }
+    ul.social-icons li {
+        margin-bottom: 15px !important;
+    }
+}
+/* ======== // END EXTRA SMALL SCREENS ======== */
+
+/* ======== START SMALL SCREENS ======== */
+@media (min-width:768px) and (max-width:991px) {
+    .navbar-right {
+        margin-right: 0;
+    }
+    .navbar-collapse {
+        padding-right: 0;
+    }
+    .intro:before,
+    .testimonials:before {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    .portfolio .img-responsive {
+        width: 100%;
+    }
+    .testimonials .carousel-inner>.item>a>img,
+    .testimonials .carousel-inner>.item>img {
+        min-width: 0;
+    }
+    .testimonials .item blockquote {
+        width: 100%;
+        font-size: 16px;
+    }
+    .contact form .btn-border:hover {
+        display: block;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .copyrights {
+        margin-bottom: 20px;
+    }
+}
+/* ======== // END SMALL SCREENS ======== */
+
+/* ======== START LARGE SCREENS ======== */
+@media (min-width:1200px) {
+    .navbar .navbar-collapse {
+        padding-right: 0;
+    }
+}
+/* ======== // END LARGE SCREENS ======== */
